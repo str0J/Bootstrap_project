@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Timetable</title>
+    <link rel="stylesheet" href="css/emploi.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/presets.css"> 
+    
+</head>
+<body>
+  <!-- My navigation bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" ><img src="assets/img/logo.png" width="100" height="30" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="CV.html">My CV</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              My personal
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="animal.html">Favorite animal</a></li>
+              <li><a class="dropdown-item" href="anime.html">Anime</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item active" href="emploi.html">Timetable</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled"  tabindex="-1" aria-disabled="true">Hack the website</a>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+  <!-- End of navigation bar -->
+  <div class="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center mb30">
+            <h2>My personal timetable</h2>
+            </div>
+            <div class="table-responsive">
+                <table class="timetable table table-striped  ">
+                    <thead>
+                        <tr class="text-center">
+                            <th scope="col"></th>
+                            <th scope="col">Monday</th>
+                            <th scope="col">Tuesday</th>
+                            <th scope="col">Wednesday</th>
+                            <th scope="col">Thursday</th>
+                            <th scope="col">Friday</th>
+                            <th scope="col">Saturday</th>
+                            <th scope="col">Sunday</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                        <tr>
+                            <th scope="row">08:30 Am - 10:00 Am</th>
+                            <td class="myTIMETABLE">Economie Générale
+                              <br> Travaux dirigés
+                                </td>
+                            <td class="myTIMETABLE">LGF
+                              <br> Cours
+                                </td>
+                            <td class="myTIMETABLE">Informatique de Base
+                               <br> Travaux pratiques
+                            </td>
+                            <td class="myTIMETABLE">Sports
+                           </td>
+                           <td class="myTIMETABLE">Electronique
+                            <br> Projet
+                         </td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">10:15 Am - 11:45 Am</th>
+                            <td class="myTIMETABLE">Intro au Télécom
+                              <br> Conférence
+                                </td>
+                            <td class="myTIMETABLE">LGF
+                              <br> TD
+                                </td>
+                            <td class="myTIMETABLE">Informatique de Base
+                               <br> Travaux pratiques
+                            </td>
+                            <td class="myTIMETABLE">Sports
+                           </td>
+                           <td class="myTIMETABLE">Electronique
+                            <br> Projet
+                         </td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">11:45 Am - 01:45 PM</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">01:45 PM - 03:15 PM</th>
+                          <td class="myTIMETABLE">Electronique Analogique
+                            <br> Cours
+                              </td>
+                          <td class="myTIMETABLE">Electronique numérique
+                            <br> Cours
+                              </td>
+                          <td></td>
+                          <td class="myTIMETABLE">Anglais
+                         </td>
+                         <td class="myTIMETABLE">Electronique
+                          <br> Projet
+                       </td>
+                          <td></td>
+                          <td></td>
+                      </tr>
+                        <tr>
+                            <th scope="row">03:30 PM - 05:00 PM</th>
+                            <td class="myTIMETABLE">Electronique Analogique
+                              <br> TD
+                                </td>
+                            <td class="myTIMETABLE">Electronique numérique
+                              <br> TD
+                                </td>
+                            <td></td>
+                            <td class="myTIMETABLE">Anglais
+                           </td>
+                           <td class="myTIMETABLE">Electronique
+                            <br> Projet
+                         </td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                       
+                    </tbody>
+                </table>
+            </div>
+            <!-- timetable -->
+        </div>
+         
+    </div>
+  </div>
+  <script src="js/bootstrap.bundle.js"></script>
+    </body>
+    
+</html>
